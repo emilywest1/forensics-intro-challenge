@@ -1,0 +1,2 @@
+View the pdf in something like CyberChef. Notice that all the pdf's data is within the bounds 
+of %PDF-1.7 and %%EOF (headers) when viewed raw in something like CyberChef.

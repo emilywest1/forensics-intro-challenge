@@ -1,0 +1,1 @@
+You've found a jpg image! Plaintext strings can sometimes be hidden in images.

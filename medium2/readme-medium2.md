@@ -1,0 +1,1 @@
+Was this picture taken with Manual or Automatic Exposure Mode?
