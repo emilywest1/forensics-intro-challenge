@@ -1,7 +1,7 @@
     cd forensics-intro-challenge
     make all
 
-All flags are of the format: CSG{<string>}
+All flags are of the format: CSG{"some string"}
 
 When you're done:
 
