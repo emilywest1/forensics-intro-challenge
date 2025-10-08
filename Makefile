@@ -1,15 +1,19 @@
 .PHONY: all build run stop clean
 
-all: build run
+IMAGE_NAME := challenge-image
+CONTAINER_NAME := challenge-container
+
+all: stop clean build run
 
 build:
-	sudo docker build -t challenge-image .
+	sudo docker build -t $(IMAGE_NAME) .
 
 run:
-	sudo docker run -it --name challenge-container challenge-image /bin/bash
+	sudo docker run -it --name $(CONTAINER_NAME) $(IMAGE_NAME) /bin/bash
 
 stop:
-	sudo docker stop challenge-container
+	-sudo docker stop $(CONTAINER_NAME)
 
 clean:
-	sudo docker image prune -f
+	-sudo docker image prune -f
+	-sudo docker container prune -f
