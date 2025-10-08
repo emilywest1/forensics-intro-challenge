@@ -1,0 +1,1 @@
+All flags are of the format: CSG{<string>}

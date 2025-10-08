@@ -1,0 +1,1 @@
+Use binwalk -e to extract the headers. Find squashfs in this result.
